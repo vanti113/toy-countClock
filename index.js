@@ -12,8 +12,7 @@ function timeHandler() {
   console.log(`현재 남은 시간은 ${day}일 ${hour}시 ${minute}분 ${second}초`);
 }
 
-function init() {
+const goDday = () =>
   setInterval(() => {
     timeHandler();
   }, 1000);
-}
